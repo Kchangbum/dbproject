@@ -1,0 +1,21 @@
+{
+  "name": "carbonemissions",
+  "version": "1.0.0",
+  "description": "DB_project",
+  "main": "db.js",
+  "type": "module",
+  "scripts": {
+    "start": "node db.js",
+    "dev": "nodemon db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
